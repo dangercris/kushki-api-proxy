@@ -1,0 +1,12 @@
+name = "kushki-api-proxy"
+main = "src/index.ts"
+compatibility_date = "2023-03-27"
+
+kv_namespaces = [
+    { binding = "KV_KUSHKI_API_PROXY", preview_id = "0513cf3c10b14f94a54de2fd090a27d2", id = "0513cf3c10b14f94a54de2fd090a27d2" }
+]
+
+[env.production]
+kv_namespaces = [
+    { binding = "KV_KUSHKI_API_PROXY", id = "e9de059f7af84bdbae63f1072fa1d251" }
+]
