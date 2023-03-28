@@ -6,6 +6,8 @@ Este proyecto tiene como objetivo crear un proxy para el API de kushki, usando u
 
 #### Requicitos previos
 
+Tener una cuenta gratuita en [Cloudflare](https://dash.cloudflare.com/sign-up)
+
 Instalar el cli de [wrangler](https://github.com/cloudflare/wrangler)
 
 ```
